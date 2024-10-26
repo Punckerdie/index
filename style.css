@@ -1,0 +1,124 @@
+body {
+     background-color: rgb(205, 212, 205);
+     max-width: 500px;
+     margin: 0 auto;
+     
+     
+    }
+    
+    h1 {
+        font-size: 40px; /*Esse é o codigo da font e o tamaho dela e o px significa pixel*/
+        color: darkslategray;
+        font-style: oblique;
+        margin: 10px 50px;
+        
+        }
+
+    h3 {
+
+        font-size: 20px;
+        color: blueviolet;
+        font-style: unset;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    
+    
+    button {
+    background-color: rgb(82, 79, 79);
+    color: aliceblue;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    transition: 3,0s;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 30px;
+    
+    }
+
+    h5 {
+
+    background-color: rgb(205, 212, 205);
+    text-align: center;
+    font-style: oblique;
+    
+
+        
+    }
+
+
+
+button:hover {
+
+    background-color:darkgray;
+    
+    
+    
+    }
+
+button:active {
+
+    background-color:darkolivegreen;
+    font-style: oblique;
+    
+}
+
+iframe {
+
+    margin-left: 600px;
+    margin-top: -300px;
+    
+    
+
+    
+    
+}
+
+
+
+
+
+
+input {
+    
+    background-color: aliceblue;
+    color: brown;
+    width: 80%;
+    
+    height: 26px; /* height significa a altura da barra*/
+    width: 328px; /*width significa largura da barra*/
+    border-color: cornflowerblue;
+    border-style:solid;
+    text-align: center;
+
+}
+
+ul {
+
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: darkslategrey;
+}
+
+li {
+/* space-between significa que cada palavra vai ficar em um canto tipo assim   oi                oi */
+    background-color: blueviolet;
+    padding: 10px; /* padding é para criar uma espaçamento o almento da linha*/
+    margin: 10px auto;
+    border-radius: 10px; /* para deixar a borda curva */
+    color: mediumspringgreen;
+    font-weight:bold;/* deixa em negrito*/
+    cursor:pointer; /* faz o cursor virar a maozinha na hora de clicar*/
+
+    display: flex; /* esse é para alinhas os elementos*/
+    align-items:last baseline;
+    justify-content: space-between;
+    
+
+    
+    }
+
+    
